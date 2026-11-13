@@ -35,12 +35,37 @@ const sid454 = {
     aiAndDatabases: ["MySQL", "MongoDB", "RAG"],
     devTools: ["Git", "GitHub", "VS Code"],
   },
-  launchedProjects: [], // coming soon 🚀
+  launchedProjects: ["Nestly AI: rental scam detector + roommate matching"],
   certifications: [],
   status: "Final year · Preparing for placements",
   openTo: ["SDE roles", "Internships", "Full Stack roles"],
 };
 ```
+
+---
+
+## 🚀 Featured Projects
+
+### 🏡 Nestly AI: Rent safe. Live happy.
+AI-powered rental platform that catches fake listings and broker scams: a C++ engine spots stolen photos even after crop/filter/watermark, ML flags too-cheap rents and scam messages, owners list flats directly on a map, tenants book visits hotel-style, rent & bills are paid straight to the owner's UPI, and students find compatible roommates.
+
+<p align="center">
+  <a href="https://github.com/Sid454/nestly-ai">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Sid454&repo=nestly-ai&theme=nord&border_color=7dd3fc&title_color=7dd3fc&icon_color=7dd3fc&text_color=e5e9f0" alt="Nestly AI repo card" />
+  </a>
+</p>
+
+| Layer | Technology |
+|---|---|
+| Performance core | C++20 (perceptual hashing, Hamming index) via pybind11 |
+| AI / ML | scikit-learn: scam text classifier, fair-rent regressor, risk fusion |
+| Backend | Python, FastAPI, SQLite |
+| Frontend | HTML, CSS, JavaScript, Leaflet maps, installable PWA |
+| Assistant | RAG-style retrieval over a verified knowledge base |
+
+<p align="left">
+  <a href="https://github.com/Sid454/nestly-ai"><img src="https://img.shields.io/badge/Code-GitHub-7dd3fc?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a" alt="Code" /></a>
+</p>
 
 ---
 
